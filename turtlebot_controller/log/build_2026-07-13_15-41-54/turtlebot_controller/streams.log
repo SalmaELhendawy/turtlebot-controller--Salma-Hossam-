@@ -1,0 +1,41 @@
+[2.080s] Invoking command in '/root/workspaces/turtlebot_controller/src/turtlebot_controller': PYTHONPATH=/root/workspaces/turtlebot_controller/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot_controller/build/turtlebot_controller/build install --record /root/workspaces/turtlebot_controller/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data
+[2.493s] running egg_info
+[2.510s] creating ../../build/turtlebot_controller/turtlebot_controller.egg-info
+[2.541s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[2.567s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[2.580s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[2.597s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[2.612s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[2.632s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.704s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.716s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.734s] running build
+[2.740s] running build_py
+[2.741s] creating /root/workspaces/turtlebot_controller/build/turtlebot_controller/build
+[2.741s] creating /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib
+[2.741s] creating /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller
+[2.741s] copying turtlebot_controller/turtlebot_monitor.py -> /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller
+[2.755s] copying turtlebot_controller/__init__.py -> /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller
+[2.771s] copying turtlebot_controller/turtlebot_controller.py -> /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller
+[2.789s] running install
+[2.808s] running install_lib
+[2.833s] creating /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[2.844s] copying /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller/turtlebot_monitor.py -> /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[2.862s] copying /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller/__init__.py -> /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[2.879s] copying /root/workspaces/turtlebot_controller/build/turtlebot_controller/build/lib/turtlebot_controller/turtlebot_controller.py -> /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[2.907s] byte-compiling /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/turtlebot_monitor.py to turtlebot_monitor.cpython-312.pyc
+[2.936s] byte-compiling /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/__init__.py to __init__.cpython-312.pyc
+[2.961s] byte-compiling /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/turtlebot_controller.py to turtlebot_controller.cpython-312.pyc
+[2.982s] running install_data
+[3.001s] creating /root/workspaces/turtlebot_controller/install/turtlebot_controller/share/ament_index
+[3.006s] creating /root/workspaces/turtlebot_controller/install/turtlebot_controller/share/ament_index/resource_index
+[3.006s] creating /root/workspaces/turtlebot_controller/install/turtlebot_controller/share/ament_index/resource_index/packages
+[3.006s] copying resource/turtlebot_controller -> /root/workspaces/turtlebot_controller/install/turtlebot_controller/share/ament_index/resource_index/packages
+[3.019s] copying package.xml -> /root/workspaces/turtlebot_controller/install/turtlebot_controller/share/turtlebot_controller
+[3.038s] running install_egg_info
+[3.076s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info
+[3.249s] running install_scripts
+[3.483s] Installing turtlebot_controller script to /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/turtlebot_controller
+[3.502s] Installing turtlebot_monitor script to /root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/turtlebot_controller
+[3.536s] writing list of installed files to '/root/workspaces/turtlebot_controller/build/turtlebot_controller/install.log'
+[3.567s] Invoked command in '/root/workspaces/turtlebot_controller/src/turtlebot_controller' returned '0': PYTHONPATH=/root/workspaces/turtlebot_controller/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_controller/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot_controller/build/turtlebot_controller/build install --record /root/workspaces/turtlebot_controller/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data

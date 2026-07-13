@@ -1,0 +1,7 @@
+/build
+/install
+/log
+/my_robot_ws
+/supervisord.pid
+/turtlebot_autopilot
+/turtlebot_ws
