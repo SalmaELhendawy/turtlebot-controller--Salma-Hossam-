@@ -103,7 +103,7 @@ of logs printing the exact velocity values being received. The output looks like
 ____________________________________________________________________________________
 
 ## 6. Simulation Demo
- Simulation Demo: Speed TuningTo prevent the TurtleBot3 from flipping over and losing control in the Gazebo simulation, we tuned down the velocity limits to match the robot's
+ Simulation Demo: Speed TuningTo prevent the TurtleBot3 from flipping over and losing control in the simulation, we tuned down the velocity limits to match the robot's
  actual hardware constraints.What changed:Before (Unsafe): 0.5 m/s Linear | 1.0 rad/s Angular $\rightarrow$ The robot aggressively flips over due to 
  sudden acceleration.After (Safe): 0.15 m/s Linear | 0.5 rad/s Angular $\rightarrow$ Smooth, stable, and highly controlled movement.
  Watch the side-by-side demo below to see the difference in stability:
